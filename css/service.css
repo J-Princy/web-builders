@@ -1,0 +1,307 @@
+* {
+  padding: 0%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+
+.banner-container {
+  width: 100%;
+  margin: auto;
+}
+
+.banner-row {
+  display: flex;
+  background: linear-gradient(to right, black, transparent), url(image/about-banner.jpg);
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-p {
+  color: white;
+  padding: 170px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.box {
+  padding-top: 50px;
+}
+
+.box-container {
+  width: 90%;
+  margin: auto;
+}
+
+.box-row {
+  display: flex;
+  gap: 30px;
+}
+
+.box-col {
+  width: 33.3%;
+}
+
+.offer {
+  display: flex;
+  gap: 10px;
+}
+
+.box-content h2,
+.box-content p {
+  padding: 5px 0px;
+}
+
+.box-content p {
+  color: #606060;
+}
+
+.service-container h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+  padding-top: 50px;
+  color: black;
+}
+
+.service {
+  background-color: ghostwhite;
+
+}
+
+.service-container p {
+  font-size: 22px;
+  color: #606060;
+}
+
+.service-container {
+  width: 90%;
+  margin: auto;
+}
+
+.service-col {
+  width: 25%;
+
+}
+
+.service-col img {
+  padding: 10px;
+
+}
+
+.service-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service h3 {
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: orange;
+}
+
+.service-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-img::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 92%;
+  height: 90%;
+  background: linear-gradient(to bottom, rgba(240, 184, 30, 0.5), rgba(240, 184, 33, 0.7));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.service-img:hover::before {
+  opacity: 1;
+}
+
+@media (min-width:320px) {
+  .banner-container {
+    width: 90%;
+  }
+
+  .banner-row {
+    display: flex;
+    background: linear-gradient(to right, black, transparent), url(image/about-banner.jpg);
+    max-width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .banner-p {
+    color: white;
+    padding: 120px;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .box-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .box-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-col {
+    width: 100%;
+  }
+
+  .service-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .service-container h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+    color: black;
+  }
+
+  .service-container p {
+    font-size: 17px;
+    color: #606060;
+    width: 90%;
+  }
+
+  .service-col {
+    width: 100%;
+  }
+}
+
+@media (min-width:760px) {
+  .banner-container {
+    width: 90%;
+  }
+
+  .banner-row {
+    display: flex;
+    background: linear-gradient(to right, black, transparent), url(image/about-banner.jpg);
+    width: 90%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .banner-p {
+    color: white;
+    padding: 120px;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .box-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .box-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-col {
+    width: 50%;
+  }
+
+  .service-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .service-container h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+    color: black;
+  }
+
+  .service-container p {
+    font-size: 20px;
+    color: #606060;
+    width: 90%;
+  }
+
+  .service-col {
+    width: 50%;
+  }
+}
+
+@media (min-width:1020px) {
+  .banner-container {
+    width: 100%;
+  }
+
+  .banner-row {
+    display: flex;
+    background: linear-gradient(to right, black, transparent), url(image/about-banner.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .banner-p {
+    color: white;
+    padding: 120px;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .box-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .box-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-col {
+    width: 30.3%;
+  }
+
+  .service-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .service-container h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+    color: black;
+  }
+
+  .service-container p {
+    font-size: 20px;
+    text-align: center;
+    color: #606060;
+  }
+
+  .service-col {
+    width: 25%;
+  }
+}

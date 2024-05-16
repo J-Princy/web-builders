@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagercoil Builder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- --------------navbar section-------------- -->
+    <header class="header">
+        <div class="header-container">
+            <div class="row v-center">
+                <div class="header-item item-left">
+                    <div class="logo">
+                        <a href="#"><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- menu start here -->
+                <div class="header-item item-center">
+                    <div class="menu-overlay">
+                    </div>
+                    <nav class="menu">
+                        <div class="mobile-menu-head">
+                            <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                            <div class="current-menu-title"></div>
+                            <div class="mobile-menu-close">&times;</div>
+                        </div>
+                        <ul class="menu-main">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="service.html"> Services<i class='bx bx-chevron-down'></i></a>
+                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                    <div class="list-item">
+                                        <h4>Our Services</h4>
+                                        <ul>
+                                            <li><a href="#">Plan & Design</a></li>
+                                            <li><a href="#">Construction</a></li>
+                                            <li><a href="#">Consulting</a></li>
+                                            <li><a href="#">Estimate</a></li>
+                                            <li><a href="#">3D-Elevation</a></li>
+                                            <li><a href="#">Interior Design</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="list-item">
+                                        <img src="images/6.jpg" alt="" width="100px">
+                                    </div>
+                                    <div class="list-item">
+                                        <h4> We provide best services</h2>
+                                            <ul>
+                                                <li><a href="#">Caprpentry</a></li>
+                                                <li><a href="#">Electric Work</a></li>
+                                                <li><a href="#">Painting</a></li>
+                                                <li><a href="#">Interior Work</a></li>
+                                                <li><a href="#">Product List</a></li>
+                                            </ul>
+                                    </div>
+                                    <div class="list-item">
+                                        <img src="images/6.jpg" alt="" width="100px">
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="projects.html">Projects <i class='bx bx-chevron-down'></i></a>
+                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                    <div class="list-item text-center">
+                                        <a href="#">
+                                            <img src="images/project5.jpg" alt="new Product">
+                                            <h4 class="title">Project 1</h4>
+                                        </a>
+                                    </div>
+                                    <div class="list-item text-center">
+                                        <a href="#">
+                                            <img src="images/project2.jpg" alt="new Product">
+                                            <h4 class="title">Project 2</h4>
+                                        </a>
+                                    </div>
+                                    <div class="list-item text-center">
+                                        <a href="#">
+                                            <img src="images/project3.jpg" alt="new Product">
+                                            <h4 class="title">Project 3</h4>
+                                        </a>
+                                    </div>
+                                    <div class="list-item text-center">
+                                        <a href="#">
+                                            <img src="images/project4.jpg" alt="new Product">
+                                            <h4 class="title">Project 4</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+                <!-- menu end here -->
+                <div class="header-item item-right">
+                    <!-- <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a> -->
+                    <!-- mobile menu trigger -->
+                    <div class="mobile-menu-trigger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- ----------------------banner section-------------------- -->
+    <section class="silde">
+        <div class="banner-container">
+            <div class="banner-row">
+                <div class="slide fade">
+                    <img class="slide-image" src="images/banner.jpg">
+                    <div class="slide-content">
+                        <h3 class="slide-title">Nagercoil Builders</h3>
+                        <p class="slide-desc">
+                            We Build Your DREAM HOUSE 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <img class="slide-image" src="images/banner1.jpg">
+                    <div class="slide-content">
+                        <h3 class="slide-title">Nagercoil Builders</h3>
+                        <p class="slide-desc">
+                            We Build Your DREAM HOUSE                        
+                         </p>
+                    </div>
+                </div>
+
+                <div class="slide fade">
+                    <img class="slide-image" src="images/banner.jpg">
+                    <div class="slide-content">
+                        <h3 class="slide-title">Nargercoil Builders</h3>
+                        <p class="slide-desc">
+                            We Build Your DREAM HOUSE                       
+                         </p>
+                    </div>
+                </div>
+                <!-- The dots/circles -->
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="box">
+        <div class="box-container">
+            <div class="box-row">
+                <div class="box-col">
+                    <div class="offer">
+                        <div class="box-img">
+                            <img src="images/icon-1.png" alt="icon images">
+                        </div>
+                        <div class="box-content">
+                            <h2>TOP RATED</h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-col">
+                    <div class="offer">
+                        <div class="box-img">
+                            <img src="images/icon-2.png" alt="icon images">
+                        </div>
+                        <div class="box-content">
+                            <h2>BEST QUALITY</h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-col">
+                    <div class="offer">
+                        <div class="box-img">
+                            <img src="images/icon-3.png" alt="icon images">
+                        </div>
+                        <div class="box-content">
+                            <h2>LOW COST</h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------about section home page-------------------------- -->
+
+    <section class="abt">
+        <div class="abt-container">
+            <h1 class="abt-title">ABOUT <span style="color: #fcc236;">NAGERCOIL BUILDER </span></h1>
+            <p class="abt-para">On the other hand, we denounce with righteous indignation and dislike men who are so
+                beguiled and
+                demoralized by the charms of pleasure of the moment, so blinded by desire</p>
+            <div class="abt-row">
+                <div class="abt-col">
+                    <div class="about foo">
+                        <div class="about__inner">
+                            <h2><a href="about.html">OUR STORY</a></h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized On the other hand, we denounce with</p>
+                            <div class="about__btn">
+                                <a href="about.html">READ MORE<i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                            <div class="about__icon">
+                                <img src="images/abt-1.png" alt="icon images">
+                            </div>
+                        </div>
+                        <div class="about__inner about__hober__info">
+                            <h2><a href="about.html">OUR STORY</a></h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized On the other hand, we denounce with</p>
+                            <div class="about__btn">
+                                <a href="about.html">READ MORE<i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                            <div class="about__icon">
+                                <img src="images/abt-1.png" alt="icon images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="abt-col">
+                    <div class="about foo">
+                        <div class="about__inner">
+                            <h2><a href="about.html">ABOUT US</a></h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized On the other hand, we denounce with</p>
+                            <div class="about__btn">
+                                <a href="about.html">READ MORE<i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                            <div class="about__icon">
+                                <img src="images/abt-2.png" alt="icon images">
+                            </div>
+                        </div>
+                        <div class="about__inner about__hober__info active">
+                            <h2><a href="about.html">ABOUT US</a></h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized On the other hand, we denounce with</p>
+                            <div class="about__btn">
+                                <a href="about.html">READ MORE <i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                            <div class="about__icon">
+                                <img src="images/abt-2.png" alt="icon images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="abt-col">
+                    <div class="about foo">
+                        <div class="about__inner">
+                            <h2><a href="about.html">OUR CERTIFICATE</a></h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized On the other hand, we denounce with</p>
+                            <div class="about__btn">
+                                <a href="about.html">READ MORE</a>
+                            </div>
+                            <div class="about__icon">
+                                <img src="images/abt-3.png" alt="icon images">
+                            </div>
+                        </div>
+                        <div class="about__inner about__hober__info">
+                            <h2><a href="about.html">OUR CERTIFICATE</a></h2>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so
+                                beguiled demoralized On the other hand, we denounce with</p>
+                            <div class="about__btn">
+                                <a href="about.html">READ MORE<i class='bx bx-right-arrow-alt'></i></a>
+                            </div>
+                            <div class="about__icon">
+                                <img src="images/abt-3.png" alt="icon images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------service section home page--------------------- -->
+    <section class="service">
+        <div class="service-container">
+            <div class="ser-row">
+                <div class="ser-col1">
+                    <div class="ser-img1">
+                        <img src="images/ser-4.jpg" alt="about image">
+                    </div>
+                </div>
+                <div class="ser-col2">
+                    <div class="section-title">
+                        <h2 class="title__line">OUR <span class="text-theme">SERVICES</span></h2>
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled
+                            and demoralized by the charms of pleasure of the moment, so blinded by desire, that they
+                            cannot foresee the pain and trouble</p>
+                    </div>
+                    <div class="ser-row2">
+                        <div class="ser-col11">
+                            <div class="carousel">
+                                <div class="service_thumb">
+                                    <a href="service.html">
+                                        <img src="images/ser-1.jpg" alt="service images">
+                                    </a>
+                                    <div class="service__hover">
+                                        <div class="service__action">
+                                            <a href="service.html"><h3>DETAILS</h3></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="service__details">
+                                    <h2><a href="service.html">CONSTRUCTION</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ser-col12">
+                            <div class="service_thumb">
+                                <a href="service.html">
+                                    <img src="images/ser-2.jpg" alt="service images">
+                                </a>
+                                <div class="service__hover">
+                                    <div class="service__action">
+                                        <a href="service.html"><h3>DETAILS</h3></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service__details">
+                                <h2><a href="service.html">RENOVATION</a></h2>
+                            </div>
+                        </div>
+                        <div class="ser-col13">
+                            <div class="service_thumb">
+                                <a href="service.html">
+                                    <img src="images/ser-3.jpg" alt="service images">
+                                </a>
+                                <div class="service__hover">
+                                    <div class="service__action">
+                                        <a href="service.html">
+                                            <h3>DETAILS</h3></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service__details">
+                                <h2><a href="service.html">ARCHITECTURE</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------projects-------------------------- -->
+
+    <section class="projects">
+        <div class="project-container">
+            <div class="project-row">
+                <div class="project-heading">
+                    <h1>LATEST <span>PROJECTS</span></h1>
+                    <P>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+                        demoralized by the charms of pleasure of the moment, so blinded by desire</P>
+                </div>
+            </div>
+            <div class="project-img-row">
+                <div class="project-img-col1">
+                    <div class="project-img-hover">
+                        <img src="images/project1.jpg" alt="">
+                        <div class="project-hover">
+                            <div class="project-hover-border1">
+                                <a href="projects.html">
+                                    <h3>CONSTRUCTION</h3>
+                                </a>
+                                <h5>Duration: 6 months</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img-col2">
+                    <div class="project-img-col2-row1">
+                        <div class="project-img-hover">
+                            <img src="images/project2.jpg" alt="">
+                            <div class="project-hover">
+                                <div class="project-hover-border">
+                                    <a href="projects.html">
+                                        <h3>CONSTRUCTION</h3>
+                                    </a>
+                                    <h5>Duration: 6 months</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-img-hover">
+                            <img src="images/project3.jpg" alt="">
+                            <div class="project-hover">
+                                <div class="project-hover-border">
+                                    <a href="projects.html">
+                                        <h3>CONSTRUCTION</h3>
+                                    </a>
+                                    <h5>Duration: 6 months</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-img-col2-row2">
+                        <div class="project-img-hover">
+                            <img src="images/project4.jpg" alt="">
+                            <div class="project-hover">
+                                <div class="project-hover-border">
+                                    <a href="projects.html">
+                                        <h3>CONSTRUCTION</h3>
+                                    </a>
+                                    <h5>Duration: 6 months</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-img-hover">
+                            <img src="images/project5.jpg" alt="">
+                            <div class="project-hover">
+                                <div class="project-hover-border">
+                                    <a href="projects.html">
+                                        <h3>CONSTRUCTION</h3>
+                                    </a>
+                                    <h5>Duration: 6 months</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------video carousel------------------------------ -->
+
+    <section class="testimonial-section">
+        <div class="testimonial-carousel">
+            <div class="testimonial-carousel-container">
+                <h2 class="test-head">TESTIMONIAL</h2>
+                <h1 class="test-head-1">Happy With Our Family</h1>
+                <p class="test-head-2">At KG Builders and Promoters, our customers have been our best goodwill
+                    ambassadors. Validating the trust
+                    they have in us, they give us the confidence to go forth and make even bigger plans for the future.
+                    Hear
+                    it from them…</p>
+                <h3 class="test-head-3">VIEW ALL TESTIMONIAL</h3>
+                <div class="test-carousel">
+                    <!-- First YouTube video -->
+                    <div class="testimonial">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mbwuj58UEPg" frameborder="0"
+                            allowfullscreen></iframe>
+                        <a href="https://www.youtube.com/watch?v=mbwuj58UEPg" target="_blank">View on YouTube</a>
+                    </div>
+
+                    <!-- Second YouTube video -->
+                    <div class="testimonial">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/l55HVcMhVsE" frameborder="0"
+                            allowfullscreen></iframe>
+                        <a href="https://www.youtube.com/watch?v=l55HVcMhVsE" target="_blank">View on YouTube</a>
+                    </div>
+
+                    <!-- Third YouTube video -->
+                    <div class="testimonial">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TEARy5Vk4vY" frameborder="0"
+                            allowfullscreen></iframe>
+                        <a href="https://www.youtube.com/watch?v=TEARy5Vk4vY" target="_blank">View on YouTube</a>
+                    </div>
+
+                    <!-- Add more testimonials as needed -->
+                </div>
+            </div>
+            <button class="prev-button">&#10094;</button>
+            <button class="next-button">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- ---------------------best construction theme---------------------- -->
+
+    <section class="Construction  h1__countdown ">
+        <div class="container-con">
+            <div class="con-row">
+                <div class="con-col1">
+                    <div class="con-img">
+                        <img src="images/pic1.png" alt="images">
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <h2>Contact Us</h2>
+                    <p>Leave the message here we will get back to you!</p>
+                    <form action="">
+                        <div class="form-head">
+                            <span>
+                                <label for="name">Name</label><br>
+                                <input id="name" type="text" placeholder="Full Name">
+                            </span> <br>
+                            <span>
+                                <label for="email">Email</label></span><br>
+                            <input type="email" id="email" placeholder="Email">
+                            </span> <br>
+                            <span>
+                                <label for="phone">Phone Number</label></span><br>
+                            <input type="phone" id="phone" placeholder="+(91) 9873649122">
+                            </span>
+                        </div>
+                        <button onclick="sendToWhatsapp()">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------footer section------------------------ -->
+
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <div class="footer-socailmedia">
+                        <h2>Follw me on Social Media</h2>
+                        <ul>
+                            <a href="">
+                                <li><img src="images/fb.svg" alt="facebook" width="40px"></li>
+                            </a>
+                            <a href="">
+                                <li><img src="images/insta.svg" alt="instagram" width="40px"></li>
+                            </a>
+                            <a href="">
+                                <li><img src="images/x.svg" alt=" twitter" width="35px"></li>
+                            </a>
+                            <a href="">
+                                <li><img src="images/in.svg" alt="linkedin" width="40px"></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-col1">
+                    <div class="footer-image">
+                        <img src="images/footer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-row">
+                <div class="contact-col">
+                    <div class="contact-address">
+                        <div class="address-icon">
+                            <i class='bx bxs-location-plus'></i>
+                        </div>
+                        <div class="address-con">
+                            <h4>Address</h4>
+                            <p>Stock Building, 125 Main Street, Nagercoil</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <div class="contact-address">
+                        <div class="address-icon">
+                            <i class='bx bxl-gmail'></i>
+                        </div>
+                        <div class="address-con">
+                            <h4>Email</h4>
+                            <a href="mailtonagercoilbuilders@gmail.com"><p>nagercoilbuilders</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <div class="contact-address">
+                        <div class="address-icon">
+                            <i class='bx bxs-phone'></i>
+                        </div>
+                        <div class="address-con">
+                            <h4>Contact Us</h4>
+                            <a href="tel: +91 95977 51076 "><p>95977 51076</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- testimonial section -->
+    <script>
+        $(document).ready(function () {
+            // Function to move carousel to the next slide
+            function nextSlide() {
+                var $carousel = $('.test-carousel');
+                var marginLeft = parseInt($carousel.css('marginLeft'));
+                var slideWidth = $('.testimonial').outerWidth(true); // Get the width of each testimonial including margin
+
+                $carousel.animate({ marginLeft: '-=' + slideWidth }, 'slow', function () {
+                    // Check if reached the end, then move first testimonial to the end
+                    if (marginLeft <= -1 * (slideWidth * ($('.testimonial').length - 1))) {
+                        $carousel.css('marginLeft', 0);
+                    }
+                });
+            }
+
+            // Function to move carousel to the previous slide
+            function prevSlide() {
+                var $carousel = $('.test-carousel');
+                var slideWidth = $('.testimonial').outerWidth(true); // Get the width of each testimonial including margin
+
+                $carousel.animate({ marginLeft: '+=' + slideWidth }, 'slow', function () {
+                    // Check if reached the beginning, then move last testimonial to the beginning
+                    var marginLeft = parseInt($carousel.css('marginLeft'));
+                    if (marginLeft >= 0) {
+                        var lastOffset = -1 * (slideWidth * ($('.testimonial').length - 1));
+                        $carousel.css('marginLeft', lastOffset);
+                    }
+                });
+            }
+
+            // Autoplay function
+            var autoplayInterval;
+
+            function startAutoplay() {
+                autoplayInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+            }
+
+            function stopAutoplay() {
+                clearInterval(autoplayInterval);
+            }
+
+            // Start autoplay when document is ready
+            startAutoplay();
+
+            // Stop autoplay on button click
+            $('.prev-button, .next-button').on('click', function () {
+                stopAutoplay();
+            });
+
+            // Click event handlers for next and previous buttons
+            $('.next-button').click(nextSlide);
+            $('.prev-button').click(prevSlide);
+        });
+    </script>
+
+
+</body>
+
+</html>
